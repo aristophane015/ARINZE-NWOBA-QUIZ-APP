@@ -1,9 +1,9 @@
 // Here are the questions and answers we will use
 const quizData = [
     {
-        question: "Which of the following is a geopolitical zone in Nigeria?",
-        answers: ["Northern Zone", "Central Zone", "South-West Zone", "Western Zone"],
-        correct: "South-West Zone"
+        question: "Which of the following is a state in Nigeria?",
+        answers: ["Enugu State", "Lagos State", "Ebonyi State", "All of the above"],
+        correct: "All of the above"
     },
     {
         question: "Which zone is the city of Lagos located in?",
@@ -11,9 +11,9 @@ const quizData = [
         correct: "South-West"
     },
     {
-        question: "Which zone is known as the 'Middle Belt' in Nigeria?",
-        answers: ["South-East", "North-East", "North-Central", "South-West"],
-        correct: "North-Central"
+        question: "Which of the following is the capital of Nigeria?",
+        answers: ["Sokoto", "Abuja", "kaduna", "Enugu"],
+        correct: "Abuja"
     },
     {
         question: "Which zone includes the states of Anambra, Enugu, and Ebonyi?",
@@ -21,9 +21,9 @@ const quizData = [
         correct: "South-East"
     },
     {
-        question: "Which geopolitical zone is predominantly Hausa-Fulani in Nigeria?",
-        answers: ["North-West", "North-East", "South-West", "South-East"],
-        correct: "North-West"
+        question: "Who is the G.O.A.T?",
+        answers: ["Cristiano Ronaldo", "lionel messi", "wayne rooney", "pele"],
+        correct: "Cristiano Ronaldo"
     }
 ];
 
