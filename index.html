@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <style>
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container">
+            <p id="question">Question will appear here</p>
+            <ul id="answer-list">
+                <!-- The answers will be added here -->
+            </ul>
+        </div>
+        <div id="progress">
+            Question <span id="current-question">1</span> of <span id="total-questions">10</span>
+        </div>
+        <button id="next-button">Next</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+        <h2>Quiz Finished!</h2>
+        <p>Your score: <span id="final-score">0</span></p>
+        <button id="restart-button">Restart Quiz</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
